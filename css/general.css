@@ -1,0 +1,44 @@
+:root {
+  --dark-blue-intro-signup: hsl(217, 28%, 15%);
+  --dark-blue-main: hsl(218, 28%, 13%);
+  --dark-blue-footer: hsl(216, 53%, 9%);
+  --dark-blue-testimonials: hsl(219, 30%, 18%);
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --white: hsl(0, 0%, 100%);
+  --red: hsl(0, 100%, 63%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--dark-blue-main);
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  overflow-x: hidden;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary,
+.cta,
+.header {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
