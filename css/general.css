@@ -30,15 +30,41 @@ body {
   overflow-x: hidden;
 }
 
-.heading-primary,
-.heading-secondary,
-.heading-tertiary,
+.heading,
 .cta,
 .header {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-weight: 4rem;
 }
 
 .container {
   max-width: 144rem;
   margin: 0 auto;
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.btn:link,
+.btn:visited {
+  width: 28rem;
+  padding: 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+  text-align: center;
+  background: linear-gradient(90deg, var(--cyan) 0%, var(--blue) 100%);
+  border: none;
+  border-radius: 28px;
+}
+
+.btn:hover,
+.btn:active {
+  background: var(--cyan);
 }
